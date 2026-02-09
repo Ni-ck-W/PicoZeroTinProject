@@ -1,4 +1,4 @@
-# PicoZeroTinProject
+# Pico-8 Tin Project
 This projects goal was to build a portable pico-8 device in a Nintendo Gameboy candy tin. After building it I expanded it with other games, like doom lol, but those can be removed pretty easily. This was a home project made for fun by a complete novice, so the work is scuff but working. I'm sure many can do it much better, but it was fun to build.
 
 ## Hardware used
