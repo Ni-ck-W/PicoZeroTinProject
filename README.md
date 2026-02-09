@@ -14,26 +14,42 @@ Some wires and buttons
 
 Screen Driver
   - https://files.waveshare.com/upload/f/f9/Waveshare_fbcp.7z
+
 xorg
 
 ## Game Software Used
 pico-8
+
 chocolate-doom
+
 retroarch
+
 build-essential 
+
 git 
+
 python3 
+
 libaudiofile-dev 
+
 libglew-dev 
+
 libglfw3-dev 
+
 libsdl2-dev 
+
 libusb-1.0.0
+
 
 ## Games Preconfigured
 Pico-8
+
 Doom 1 & 2
+
 RetroArch
+
 SM64
+
 
 ## Scripts
 installScreen1.sh & installScreen2.sh
