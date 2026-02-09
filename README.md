@@ -17,28 +17,12 @@ Screen Driver
 
 xorg
 
-## Game Software Used
+## Main Game Software Used
 pico-8
 
 chocolate-doom
 
 retroarch
-
-build-essential 
-
-git 
-
-python3 
-
-libaudiofile-dev 
-
-libglew-dev 
-
-libglfw3-dev 
-
-libsdl2-dev 
-
-libusb-1.0.0
 
 
 ## Games Preconfigured
