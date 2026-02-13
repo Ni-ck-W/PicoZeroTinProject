@@ -31,10 +31,10 @@ echo 'dtoverlay=gpio-key,gpio=19,   active_low=1,gpio_pull=up,keycode=103,label=
 echo 'dtoverlay=gpio-key,gpio=26,  active_low=1,gpio_pull=up,keycode=108,label="JoyDown"' | sudo tee -a /boot/config.txt
 echo 'dtoverlay=gpio-key,gpio=6,   active_low=1,gpio_pull=up,keycode=105,label="JoyLeft"' | sudo tee -a /boot/config.txt
 echo 'dtoverlay=gpio-key,gpio=5,  active_low=1,gpio_pull=up,keycode=106,label="JoyRight"' | sudo tee -a /boot/config.txt
-echo 'dtoverlay=gpio-key,gpio=13,  active_low=1,gpio_pull=up,keycode=57,label="JoyPress"   # SPACE' | sudo tee -a /boot/config.txt
-echo 'dtoverlay=gpio-key,gpio=21,  active_low=1,gpio_pull=up,keycode=28,label="Key1_Enter"' | sudo tee -a /boot/config.txt
-echo 'dtoverlay=gpio-key,gpio=20,  active_low=1,gpio_pull=up,keycode=45,label="Key2_X"' | sudo tee -a /boot/config.txt
-echo 'dtoverlay=gpio-key,gpio=16,  active_low=1,gpio_pull=up,keycode=46,label="Key3_C"' | sudo tee -a /boot/config.txt
+echo 'dtoverlay=gpio-key,gpio=13,  active_low=1,gpio_pull=up,keycode=57,label="Select"' | sudo tee -a /boot/config.txt
+echo 'dtoverlay=gpio-key,gpio=21,  active_low=1,gpio_pull=up,keycode=28,label="Start"' | sudo tee -a /boot/config.txt
+echo 'dtoverlay=gpio-key,gpio=20,  active_low=1,gpio_pull=up,keycode=45,label="Button_B_X"' | sudo tee -a /boot/config.txt
+echo 'dtoverlay=gpio-key,gpio=16,  active_low=1,gpio_pull=up,keycode=46,label="Button_A_C"' | sudo tee -a /boot/config.txt
 echo '# =================================' | sudo tee -a /boot/config.txt
 
 #Removing install files
