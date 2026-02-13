@@ -96,5 +96,6 @@ Notes when installing to the case
 1. Insulate the inside of the case to avoid power flowing into it, since the case is tin
 2. I drilled in holes to use the screws for the screen
 3. For buttons I just hot glued them into place after drilling holes.
+4. I think drilling from the outside in would've resulted in less scratches, so maybe learn from my mistakes.
 ![The gameboy tin with the screen and buttons installed](images/installedScreenAndButtons.jpg)
 
