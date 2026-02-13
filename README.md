@@ -74,11 +74,27 @@ SM64
 
 ## Screen Setup
 NOTE: 
-This will guide threw how I setup the device, but there is lots of room to do it other ways. Also the Waveshare 1.3inch LCD Hat works with the screen setup, so you can use that before committing to soldering the regular screen.
+This will guide how I setup the device, but there is lots of room to do it other ways. Also the Waveshare 1.3inch LCD Hat works with the screen setup, so you can use that before committing to soldering the regular screen. There is a seperate installScreen2HAT.sh that can be used instead for better button support.
 1. Flash 2023-05-03-raspios-bullseye-armhf-lite onto a micro-sd card with Raspberry Pi Imager and customize user settings for connecting to wifi
 2. Connect either the HAT or solder the screen according to their image [here](https://www.waveshare.com/w/upload/thumb/c/cb/1.3-rpi.jpg/800px-1.3-rpi.jpg)
 3. Copy installScreen1.sh & installScreen2.sh to the device *I like doing this with wget and python server who could've guessed*.
 4. Run the installScreen1.sh script and follow the instructions when told.
 5. Profit aka the screen should work now and buttons if you soldered some or are using the HAT
   - We will get to soldering buttons in the button setup section
+
+## Button Setup
+NOTE: 
+This will guide how I setup the device, but there is lots of room to do it other ways. Also the Waveshare 1.3inch LCD Hat works with buttons, so you can use that before committing to soldering seperate buttons. Software side there is a seperate installScreen2HAT.sh that can be used instead for better button support.
+1. There is many free GPIO pins, so you don't need to use what I used. Regardless, we need a total of 8 inputs (4 for dpad, select, start, B, and A). 
+2. The installScreen2.sh we used earlier setup for buttons in the /boot/config.txt file. Edit this file if you want to edit the gpio used or what keys they are programmed to. Default is arrow keys for the dpad, space for select, enter for start, x for the B button, and c for the A button.
+3. I have provided a diagram of how I wired my buttons, but if you edited the used gpio make changes accordingly. I also used buttons from [this](https://a.co/d/0dWGZrfz) button kit, but use whatever you want. Make sure your wires are long enough to reach where you drill into the case
+![Wire Diagram I did by hand instead of using something like https://app.cirkitdesigner.com/](/images/wireDiagram.png)
+
+## Case Setup
+This is pretty straight forward as you just need to cut and drill holes were you want/need them for the case. Heres a picture of my case with the buttons and screen installed.
+Notes when installing to the case
+1. Insulate the inside of the case to avoid power flowing into it, since the case is tin
+2. I drilled in holes to use the screws for the screen
+3. For buttons I just hot glued them into place after drilling holes.
+![The gameboy tin with the screen and buttons installed](images/installedScreenAndButtons.jpg)
 
